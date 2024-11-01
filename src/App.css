@@ -1,0 +1,79 @@
+
+
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #f4f4f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.completa {
+  text-decoration: line-through;
+  color: #888;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  padding: 8px;
+  font-size: 1em;
+  margin-right: 10px;
+  width: 60%;
+}
+
+form input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+form button {
+  padding: 8px 12px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #21a1f1;
+}
